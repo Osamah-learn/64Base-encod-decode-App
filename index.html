@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Base64 Encode and Decode - Online</title>
+    <style>
+        #app {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        #app p {
+            width: 100%;
+            padding: 14px;
+            background: rgb(221, 90, 29);
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        #app textarea {
+            width: 100%;
+            border: 1px solid silver;
+            outline: none;
+            border-radius: 14px;
+        }
+
+        #app select {
+            width: 100%;
+            font: 1em sans-serif;
+            padding: 14px;
+            margin-bottom: 14px;
+            border-radius: 14px;
+        }
+        #tail p{
+            text-align: center;
+            padding-top:600px
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <main id="app">
+        <p>Text - النص</p>
+
+        <select id="select">
+            <option value="encode">تشفير</option>
+            <option value="decode">فك التشفير</option>
+        </select>
+
+
+        <textarea id="Text">
+
+      </textarea>
+
+        <p>Result -النتيجة</p>
+
+        <textarea id="result"></textarea>
+    </main>
+    <footer id="tail">
+        <p>Based64 Encode & decode By Osamah Amer &copy;</p>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+
+</html>
